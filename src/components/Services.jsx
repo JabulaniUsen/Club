@@ -16,13 +16,13 @@ const Services = () => {
     <Section id="how-to-use">
       <div className="container">
         <Heading
-          title="Generative AI made for creators."
-          text="Brainwave unlocks the potential of AI-powered applications"
+          title="Financial solution made for everyone."
+          text="GreenFinance Hub is the future of decentralized finance."
         />
 
         <div className="relative">
-          <div className="relative z-1 flex items-center h-[39rem] mb-5 p-8 border border-n-1/10 rounded-3xl overflow-hidden lg:p-20 xl:h-[46rem]">
-            <div className="absolute top-0 left-0 w-full h-full pointer-events-none md:w-3/5 xl:w-auto">
+          <div className="relative z-1 flex items-center h-[39rem] mb-5 p-8 border border-n-1/10 rounded-3xl overflow-hidden lg:p-20 ">
+            {/* <div className="absolute top-0 left-0 w-full h-full pointer-events-none md:w-3/5 xl:w-auto">
               <img
                 className="w-full h-full object-cover md:object-right"
                 width={800}
@@ -30,12 +30,12 @@ const Services = () => {
                 height={730}
                 src={service1}
               />
-            </div>
+            </div> */}
 
-            <div className="relative z-1 max-w-[17rem] ml-auto">
-              <h4 className="h4 mb-4">Smartest AI</h4>
+            <div className="relative z-1  ml-auto">
+              <h4 className="h4 mb-4">Smart Finance</h4>
               <p className="body-2 mb-[3rem] text-n-3">
-                Brainwave unlocks the potential of AI-powered applications
+                GreenFinance Hub is the future. Here's why:
               </p>
               <ul className="body-2">
                 {brainwaveServices.map((item, index) => (
@@ -49,12 +49,10 @@ const Services = () => {
                 ))}
               </ul>
             </div>
-
-            <Generating className="absolute left-4 right-4 bottom-4 border-n-1/10 border lg:left-1/2 lg-right-auto lg:bottom-8 lg:-translate-x-1/2" />
           </div>
 
-          <div className="relative z-1 grid gap-5 lg:grid-cols-2">
-            <div className="relative min-h-[39rem] border border-n-1/10 rounded-3xl overflow-hidden">
+          {/* <div className="relative z-1 grid gap-5 lg:grid-cols-2"> */}
+            {/* <div className="relative min-h-[39rem] border border-n-1/10 rounded-3xl overflow-hidden">
               <div className="absolute inset-0">
                 <img
                   src={service2}
@@ -74,9 +72,9 @@ const Services = () => {
               </div>
 
               <PhotoChatMessage />
-            </div>
+            </div> */}
 
-            <div className="p-4 bg-n-7 rounded-3xl overflow-hidden lg:min-h-[46rem]">
+            {/* <div className="p-4 bg-n-7 rounded-3xl overflow-hidden lg:min-h-[46rem]">
               <div className="py-12 px-4 xl:px-8">
                 <h4 className="h4 mb-4">Video generation</h4>
                 <p className="body-2 mb-[2rem] text-n-3">
@@ -120,8 +118,8 @@ const Services = () => {
                 <VideoChatMessage />
                 <VideoBar />
               </div>
-            </div>
-          </div>
+            </div> */}
+          {/* </div> */}
 
           <Gradient />
         </div>
