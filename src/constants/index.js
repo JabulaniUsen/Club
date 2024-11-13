@@ -72,7 +72,7 @@ export const notificationImages = [notification4, notification3, notification2];
 export const companyLogos = [yourlogo, yourlogo, yourlogo, yourlogo, yourlogo];
 
 export const brainwaveServices = [
-  "GreenFinance Hub is a digital platform designed to make investing in environmental projects easy, transparent, and impactful",
+  "Benzfinance is a digital platform designed to make investing in environmental projects easy, transparent, and impactful",
   "Think of it as a place where people can support projects that help the environment—like reforestation, renewable energy, or ocean clean-up—and, in return, earn financial benefits as these projects make a positive difference.",
   "Benzfinance will allow users to swap one token for another through the use of automated liquidity pools powered by the Benzfinance Protocol smart contracts.",
   "Benzfinance offers users a ton of feature, such as liquidity pools, yield farming activities, unlimited token swap, smart trade AI, smart predict and P2P services. More information below."

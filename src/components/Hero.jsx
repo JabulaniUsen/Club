@@ -24,7 +24,7 @@ const Hero = () => {
           <h1 className="h1 mb-6">
             Revolutionize Your Crypto Journey with {` `}
             <span className="inline-block relative">
-               <span className="text-green-500">Green</span> Finance{" "}
+               <span className="text-green-500">Benz</span>Finance{" "}
               {/* <img
                 src={curve}
                 className="absolute top-full left-0 w-full xl:-mt-2"

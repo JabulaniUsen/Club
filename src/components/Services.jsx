@@ -9,7 +9,6 @@ import {
   VideoChatMessage,
 } from "./design/Services";
 
-import Generating from "./Generating";
 
 const Services = () => {
   return (
@@ -17,7 +16,7 @@ const Services = () => {
       <div className="container">
         <Heading
           title="Financial solution made for everyone."
-          text="GreenFinance Hub is the future of decentralized finance."
+          text="Benzfinance is the future of decentralized finance."
         />
 
         <div className="relative">
@@ -35,7 +34,7 @@ const Services = () => {
             <div className="relative z-1  ml-auto">
               <h4 className="h4 mb-4">Smart Finance</h4>
               <p className="body-2 mb-[3rem] text-n-3">
-                GreenFinance Hub is the future. Here's why:
+                Benzfinance Hub is the future. Here's why:
               </p>
               <ul className="body-2">
                 {brainwaveServices.map((item, index) => (
